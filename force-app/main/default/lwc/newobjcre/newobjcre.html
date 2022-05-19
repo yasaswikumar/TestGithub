@@ -1,0 +1,13 @@
+<template>
+    <lightning-card title="Account">
+        <lightning-layout>
+            <lightning-layout-item size="6" padding="around-small">
+                <lightning-card title="New record">
+                <lightning-input label="Name" name="Name" onchange={Namehandler}></lightning-input>
+                <lightning-input label="Phone" name="Phone" onchange={phandler}></lightning-input>
+                <lightning-button label="save" onclick={savehandler}></lightning-button>
+            </lightning-card>
+            </lightning-layout-item>
+        </lightning-layout>
+    </lightning-card>
+</template>

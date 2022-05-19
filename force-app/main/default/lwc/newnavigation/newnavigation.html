@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="Create Account" icon-name="standard:account">
+        <lightning-layout>
+<lightning-layout-item size="6" padding="around-small">
+<lightning-card title="new Account" icon-name="standard:account">
+<lightning-input label="Account Name" name="Name" onchange={accounthandler}></lightning-input>
+<lightning-input label="Rating" name="Rating" onchange={annualhandler}></lightning-input>
+<br/>
+<lightning-button label="save" onclick={onSaveRecordhandler}></lightning-button>
+</lightning-card>
+</lightning-layout-item>
+        </lightning-layout>
+    </lightning-card>
+</template>

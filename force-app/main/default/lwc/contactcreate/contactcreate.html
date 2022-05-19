@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title="Create Contact" icon-name="standard:contact">
+        <lightning-layout>
+<lightning-layout-item size="6" padding="around-small">
+<lightning-card title="new Contact" icon-name="standard:contact">
+<lightning-input label=" LastName" name="LastName" onchange={accounthandler}></lightning-input>
+<lightning-input label="phone" name="Phone" onchange={annualhandler}></lightning-input>
+<lightning-input label="LWC" name="TestingLWc__c" onchange={lwhandler}></lightning-input>
+<br/>
+<lightning-button label="save" onclick={onSaveRecordhandler}></lightning-button>
+</lightning-card>
+</lightning-layout-item>
+        </lightning-layout>
+    </lightning-card>
+</template>

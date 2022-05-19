@@ -1,0 +1,13 @@
+<template>
+    <lightning-card title="Case" icon-name="standard:case">
+        <lightning-layout>
+            <lightning-layout-item sze="6" padding="around-small">
+                <lightning-card title="Cases" icon-name="standard:case">
+                    <lightning-input label="Origin" name="Origin"  onchange={originHandler}></lightning-input>   
+                    <lightning-input label="Required" name="Required__C" onchange={reHandler}></lightning-input>                 
+                    <lightning-button label="save" onclick={saverecord}></lightning-button>
+                </lightning-card>
+            </lightning-layout-item>
+        </lightning-layout>
+    </lightning-card>
+</template>
